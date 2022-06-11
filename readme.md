@@ -30,23 +30,23 @@
 
 # JAVASCRIPT
 
-# 1. Váriaveis
+## 1. Váriaveis
 
 let estaChovendo = true
 const meuNome = "Pedro"
 
-# 2. Tipo de Dados
+## 2. Tipo de Dados
 
-# String
+## String
 
 ""
 ''
 
-#Number
+##Number
 12 - Integer ( + - )
 3.2 - Float ( + - )
 
-#Boolean
+##Boolean
 true ou false
 const maiorDeDezoito = false
 
