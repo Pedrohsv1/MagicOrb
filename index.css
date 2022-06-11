@@ -9,7 +9,29 @@ a {
   text-decoration: none;
   color: white;
   font-family: 'Berkshire Swash';
-  font-size: 20px;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: blueviolet;
+
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+
+  transition: width 0.2s;
+}
+
+a:hover::after {
+  width: 100%;
 }
 
 body {
